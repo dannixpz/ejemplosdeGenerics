@@ -2,8 +2,10 @@ export function prueba<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
 }
 
-//
+//------------------------------------------------------
 
 export function wrapInArray<Type>(input: Type): Type[] {
   return [input];
 }
+
+https://desarrolloweb.com/articulos/generics-typescript.html
